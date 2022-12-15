@@ -34,7 +34,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 26px;
   font-weight: 500;
   background-color: #fff;
@@ -64,8 +64,8 @@ img {
 .container {
   width: 100%;
   max-width: 1100px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -80,7 +80,7 @@ img {
   background-color: var(--accent-color);
   color: #fff; 
   font-size: 20px;
-  line-height: 30px;
+  line-height: normal;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
@@ -94,7 +94,7 @@ img {
 
 .button--small {
   padding: 8px 24px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 22.5px;
 }
 
@@ -190,4 +190,34 @@ img {
 
 .site-header__login-link:hover {
   color: var(--text-color-dark);
+}
+
+
+/* Hero */
+.hero {
+  padding-top: 92px;
+  padding-bottom: 222px;
+  background-image: url("../img/hero-bg.svg");
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 476px) top 30px;
+}
+
+.hero__inner {
+  max-width: 565px;
+}
+
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: -2px;
+  color: var(--text-color-dark);
+}
+
+.hero__text {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 22px;
+  line-height: 36px;
 }
