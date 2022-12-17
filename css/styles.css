@@ -179,7 +179,7 @@ select:-webkit-autofill:focus {
 }
 
 .logo__img {
-  display: block;
+  display: flex;
   width: 120px;
   height: 33px;
   object-fit: contain;
