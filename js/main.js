@@ -15,6 +15,7 @@ if (elUrlShortner) {
     if (evt.target.matches(".js-copy-short-linkbutton")) {
       evt.target.textContent = "Copied!"
       evt.target.style.backgroundColor = "#3A3054"
+      navigator.clipboard.writeText(evt.target.previousElementSibling.textContent);
       
       setTimeout(() => {
         evt.target.textContent = "Copy"
